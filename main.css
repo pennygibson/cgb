@@ -1,0 +1,147 @@
+/**********************
+Colors
+Pink - C6006d
+Dark Grey - 5c6468
+Light Grey - d9d9d9
+**********************/
+
+/* Base Style Elements */ 
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	color: #5c6468;
+    max-width: 1500px;
+    margin: auto;
+    }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+h2,
+h3,
+a {
+	color: #c6006b;
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+} 
+
+.mainNav li{
+    color: #c6006b;
+}
+
+.tagLine {
+    font-weight:200;
+    font-size: .90em;
+    padding-left: 15px;
+}
+footer{
+    height: 100px;
+    border-top: solid #c6006d 3.5px;
+    
+}
+
+
+/************
+NAVIGATION
+**************/ 
+.navList a {
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 1.35em;
+}
+.navList{
+    padding-top: 25px;
+}
+
+.mainNav,
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.tagLine{
+    border-bottom: solid #c6006d 3.5px;
+}
+.contactP{
+    color: #c6006d;
+}
+
+
+/****************
+FlexBox Content Layout
+******************/
+
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.content{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    flex: 1 95%;
+    margin: 1em;
+}
+
+
+@media (min-width: 670px) {
+    .mainContent{
+        width:95%;
+        margin: auto;
+    }
+    .content{
+    flex: 1 30%;
+    background-color: ;
+    border-radius: 10px;
+    text-align: center;
+    }
+    
+}
+
+
+@media (min-width: 1025px) {
+    
+    .mainContent{
+        width: 90%;
+    }
+    .content{
+        flex: 1 30%;
+        background-color: ;
+    }
+   
+    .contact{
+        order:1;
+    }
+    .pricing{
+        order:2;
+    }
+    .about{
+        order:3;
+    }
+    .profile{
+        order:4;
+    }
+    .whyCGB{
+        order:6;
+        flex:1 100%;
+    }
+}
+
+
