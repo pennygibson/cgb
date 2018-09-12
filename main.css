@@ -75,6 +75,13 @@ footer{
 .siteBy p{
     margin: 2px 0 0 0;
 }
+.promotionalLink{
+	font-size: .5em;
+	color: white;
+}
+.promotionalLink:hover{
+	color: white;
+}
 
 
 /************
