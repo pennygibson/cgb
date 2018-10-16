@@ -260,6 +260,11 @@ footer{
 		width: 60%;
 	}
 }
+@media(max-width:950px){
+	.showme{
+		opacity: 1;
+	}
+}
 
 @media(max-width:800px){
 	.mainContent{
@@ -354,6 +359,15 @@ footer{
 	}
 	.aboveFooter{
 		width: 100%;
+	}
+}
+@media(max-width:420px){
+	.aboveFooter{
+		margin-left: 0;
+		border-radius: 0;
+	}
+	.companyName{
+		font-size: 2.5rem;
 	}
 }
 
